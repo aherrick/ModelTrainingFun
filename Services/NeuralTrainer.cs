@@ -64,6 +64,8 @@ public sealed class NeuralTrainer : IDisposable
     /// <summary>Writes the learned weights out as the model artifact.</summary>
     public void Save(string path) => _model.save(path);
 
+    public long ParameterCount => _model.parameters().Sum(parameter => parameter.numel());
+
     public IReadOnlyList<Prediction> Evaluate(IReadOnlyList<TestPair> tests) =>
         tests
             .Select(test => new Prediction(test.Word, Predict(test.Word), test.NextWord))

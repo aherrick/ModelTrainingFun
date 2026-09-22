@@ -38,5 +38,27 @@ public sealed class SavedModel : IDisposable
         }
     }
 
+    /// <summary>Feed the best guess back in as the next input - how LLMs write sentences.</summary>
+    public IEnumerable<(string From, IReadOnlyList<(string Word, float Chance)> Choices, bool Accepted)> Continue(
+        string word,
+        int length,
+        float minChance)
+    {
+        for (int step = 0; step < length; step++)
+        {
+            var choices = PredictTop(word, count: 3);
+            bool accepted = choices[0].Chance >= minChance;
+
+            yield return (word, choices, accepted);
+
+            if (!accepted)
+            {
+                yield break;
+            }
+
+            word = choices[0].Word;
+        }
+    }
+
     public void Dispose() => _model.Dispose();
 }

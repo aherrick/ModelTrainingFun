@@ -1,4 +1,5 @@
-﻿using ModelTrainingFun.Services;
+﻿using ModelTrainingFun.Models;
+using ModelTrainingFun.Services;
 
 // ============================================================
 // LOAD TRAINING DATA
@@ -66,8 +67,17 @@ trainer.Save(modelFile);
 
 ConsoleReport.Header("SAVED MODEL");
 Console.WriteLine($"training.txt -> train -> {modelFile}");
+Console.WriteLine();
+ConsoleReport.ModelSize(
+    vocabulary.Count,
+    TinyWordModel.EmbeddingSize,
+    trainer.ParameterCount,
+    new FileInfo(modelFile).Length);
 
 using var loadedModel = new SavedModel(modelFile, vocabulary);
+
+// Below this confidence the model is guessing, so stop rather than ramble.
+const float confidenceFloor = 0.20f;
 
 ConsoleReport.Header("TRY THE SAVED MODEL");
 Console.WriteLine($"Loaded trained model: {modelFile}");
@@ -98,6 +108,9 @@ while (true)
         continue;
     }
 
-    ConsoleReport.TopPredictions(word, loadedModel.PredictTop(word, count: 3));
+    ConsoleReport.Sentence(
+        word,
+        loadedModel.Continue(word, length: 5, minChance: confidenceFloor),
+        confidenceFloor);
 }
 

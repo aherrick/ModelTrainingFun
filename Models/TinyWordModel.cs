@@ -7,10 +7,13 @@ namespace ModelTrainingFun.Models;
 // Word ID -> Embedding -> Linear layer -> score for every possible next word.
 public sealed class TinyWordModel : Module<Tensor, Tensor>
 {
+    /// <summary>How many numbers describe each word.</summary>
+    public const long EmbeddingSize = 16;
+
     private readonly Module<Tensor, Tensor> _embedding;
     private readonly Module<Tensor, Tensor> _output;
 
-    public TinyWordModel(long vocabularySize, long embeddingSize = 16)
+    public TinyWordModel(long vocabularySize, long embeddingSize = EmbeddingSize)
         : base(nameof(TinyWordModel))
     {
         _embedding = Embedding(vocabularySize, embeddingSize);

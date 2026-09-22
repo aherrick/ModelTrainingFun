@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="TorchSharp-cpu" Version="0.107.0" />
-    <PackageReference Include="Microsoft.ML" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
