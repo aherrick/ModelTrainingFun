@@ -55,3 +55,24 @@ trainer.Train(
 
 ConsoleReport.Header("AFTER TRAINING");
 ConsoleReport.Predictions("FINAL RESULT", trainer.Evaluate(tests));
+
+// ============================================================
+// STEP 3 - SAVE THE MODEL, THEN LOAD IT BACK
+// ============================================================
+
+const string modelFile = "space-model.dat";
+
+trainer.Save(modelFile);
+
+ConsoleReport.Header("SAVED MODEL");
+Console.WriteLine($"training.txt -> train -> {modelFile}");
+
+using var loadedModel = new SavedModel(modelFile, vocabulary);
+
+const string testWord = "blue";
+
+ConsoleReport.Header("LOAD SAVED MODEL");
+Console.WriteLine($"Loaded {modelFile} (no training, inference only)");
+Console.WriteLine();
+Console.WriteLine($"{testWord} -> {loadedModel.Predict(testWord)}");
+
