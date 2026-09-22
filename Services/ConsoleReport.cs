@@ -54,4 +54,21 @@ public static class ConsoleReport
         Console.WriteLine();
         Console.WriteLine($"Score: {correct}/{predictions.Count}");
     }
+
+    public static void TopPredictions(
+        string word,
+        IReadOnlyList<(string Word, float Chance)> choices)
+    {
+        Console.WriteLine(word);
+        Console.WriteLine();
+
+        for (int rank = 0; rank < choices.Count; rank++)
+        {
+            var (next, chance) = choices[rank];
+
+            Console.WriteLine($"{rank + 1}. {next,-12} {chance:P0}");
+        }
+
+        Console.WriteLine();
+    }
 }

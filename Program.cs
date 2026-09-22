@@ -69,10 +69,35 @@ Console.WriteLine($"training.txt -> train -> {modelFile}");
 
 using var loadedModel = new SavedModel(modelFile, vocabulary);
 
-const string testWord = "blue";
-
-ConsoleReport.Header("LOAD SAVED MODEL");
-Console.WriteLine($"Loaded {modelFile} (no training, inference only)");
+ConsoleReport.Header("TRY THE SAVED MODEL");
+Console.WriteLine($"Loaded trained model: {modelFile}");
 Console.WriteLine();
-Console.WriteLine($"{testWord} -> {loadedModel.Predict(testWord)}");
+
+while (true)
+{
+    Console.Write("Type a word (or 'exit'): ");
+
+    string word = Console.ReadLine()?.Trim().ToLowerInvariant() ?? "exit";
+
+    if (word == "exit")
+    {
+        break;
+    }
+
+    if (word.Length == 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine();
+
+    if (!vocabulary.Contains(word))
+    {
+        Console.WriteLine("That word is not in the model's vocabulary.");
+        Console.WriteLine();
+        continue;
+    }
+
+    ConsoleReport.TopPredictions(word, loadedModel.PredictTop(word, count: 3));
+}
 

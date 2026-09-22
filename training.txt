@@ -11,6 +11,16 @@ the sun shines with enormous energy
 the sun is a star
 the sun is extremely hot
 the sun is very large
+the sun produces light
+the sun produces heat
+the sun produces energy
+the sun produces solar wind
+the sun contains hydrogen
+the sun contains helium
+the sun powers life on earth
+the sun dominates the solar system
+the sun accounts for most of the mass in the solar system
+the sun is powered by nuclear fusion
 
 the moon glows at night
 the moon glows above earth
@@ -23,6 +33,13 @@ the moon glows because it reflects sunlight
 the moon orbits earth
 the moon orbits our planet
 the moon has many craters
+the moon has mountains
+the moon has valleys
+the moon has ancient lava plains
+the moon has very little atmosphere
+the moon experiences extreme temperatures
+the moon affects ocean tides on earth
+the moon is earths natural satellite
 
 mars is red
 mars is cold
@@ -34,6 +51,26 @@ mars is home to enormous volcanoes
 mars has two moons
 mars has a thin atmosphere
 mars has polar ice caps
+mars missions explore mars
+mars missions study the atmosphere
+mars missions study the surface
+mars missions search for ancient water
+mars missions collect scientific data
+mars missions use orbiters
+mars missions use landers
+mars missions use rovers
+mars rovers explore the surface
+mars rovers take photographs
+mars rovers analyze rocks
+mars rovers search for evidence of ancient water
+mars rovers send scientific data to earth
+mars rovers drive across the surface
+mars rovers photograph rocks
+mars rovers drill into rocks
+mars rovers analyze soil
+mars rovers study ancient environments
+mars rovers communicate with earth
+mars rovers search for signs of past habitability
 
 earth is blue
 earth is round
@@ -46,6 +83,16 @@ earth is home to billions of people
 earth has one moon
 earth has liquid water
 earth has continents and oceans
+earths atmosphere contains nitrogen
+earths atmosphere contains oxygen
+earths atmosphere protects life
+earths atmosphere traps some heat
+earths atmosphere creates weather
+earths atmosphere extends above the surface
+earths magnetic field protects the planet
+earths magnetic field interacts with solar wind
+earths magnetic field extends into space
+earths magnetic field helps protect the atmosphere
 
 saturn has rings
 saturn has beautiful rings
@@ -103,6 +150,17 @@ neptune has powerful winds
 neptune has dark storms
 neptune orbits far from the sun
 
+pluto is a dwarf planet
+pluto is small
+pluto is cold
+pluto is distant
+pluto has a thin atmosphere
+pluto has several moons
+pluto orbits beyond neptune
+pluto was visited by new horizons
+pluto has a heart shaped region
+pluto belongs to the kuiper belt
+
 the solar system contains planets
 the solar system contains moons
 the solar system contains asteroids
@@ -113,12 +171,33 @@ the solar system contains many small objects
 the solar system formed billions of years ago
 the solar system is part of the milky way
 the solar system extends far beyond neptune
-
 our solar system contains eight planets
 our solar system contains many moons
 our solar system contains countless asteroids
 our solar system revolves around the sun
 our solar system belongs to the milky way
+
+the kuiper belt contains icy objects
+the kuiper belt contains dwarf planets
+the kuiper belt contains comets
+the kuiper belt extends beyond neptune
+the kuiper belt includes pluto
+the kuiper belt is part of the outer solar system
+the kuiper belt contains many small worlds
+
+the asteroid belt contains asteroids
+the asteroid belt contains rocky objects
+the asteroid belt lies between mars and jupiter
+the asteroid belt includes ceres
+the asteroid belt formed early in the solar system
+the asteroid belt contains millions of objects
+
+ceres is a dwarf planet
+ceres is located in the asteroid belt
+ceres is larger than most asteroids
+ceres contains water ice
+ceres orbits the sun
+ceres has a rocky surface
 
 the milky way contains stars
 the milky way contains planets
@@ -130,6 +209,9 @@ the milky way is a galaxy
 the milky way is enormous
 the milky way stretches across the night sky
 the milky way has a supermassive black hole
+the milky way is a spiral galaxy
+the milky way spans an enormous distance
+the milky way is one galaxy among billions
 
 our galaxy contains billions of stars
 our galaxy contains many planetary systems
@@ -147,6 +229,26 @@ stars come in many sizes
 stars come in many colors
 stars are enormous balls of plasma
 stars eventually change as they age
+stars begin inside clouds of gas
+stars generate energy through fusion
+stars shine for millions or billions of years
+stars change over time
+stars eventually reach the end of their lives
+
+young stars form inside clouds
+young stars can have planetary disks
+young stars can produce powerful radiation
+young stars continue changing as they age
+
+red giants are large stars
+red giants are evolved stars
+red giants have expanded outer layers
+red giants can be much larger than the sun
+
+white dwarfs are stellar remnants
+white dwarfs are very dense
+white dwarfs can remain hot for long periods
+white dwarfs are roughly similar in size to earth
 
 planets orbit stars
 planets orbit because of gravity
@@ -156,6 +258,13 @@ planets can have moons
 planets can have atmospheres
 planets form around young stars
 planets vary greatly in size
+a planet orbits a star
+a planet can contain an atmosphere
+a planet can contain oceans
+a planet can contain moons
+a planet can have rings
+a planet can be rocky
+a planet can be gaseous
 
 moons orbit planets
 moons orbit because of gravity
@@ -164,6 +273,12 @@ moons can contain ice
 moons come in many sizes
 moons are natural satellites
 moons exist throughout the solar system
+a moon orbits a planet
+a moon can contain ice
+a moon can contain mountains
+a moon can contain craters
+a moon can have an atmosphere
+a moon can be geologically active
 
 asteroids are rocky
 asteroids are small
@@ -185,6 +300,26 @@ gravity keeps moons in orbit
 gravity shapes stars and planets
 gravity affects everything with mass
 gravity becomes stronger between massive objects
+gravity creates orbits
+gravity attracts matter
+gravity bends the path of objects
+gravity holds galaxies together
+gravity forms stars
+gravity forms planets
+gravity controls planetary motion
+gravity becomes stronger with greater mass
+
+an orbit follows a path
+an orbit can surround a planet
+an orbit can surround a star
+an orbit is controlled by gravity
+an orbit can be circular
+an orbit can be elliptical
+
+mass affects gravity
+mass measures the amount of matter
+mass contributes to gravitational attraction
+mass remains constant in different locations
 
 light travels extremely fast
 light travels through empty space
@@ -192,6 +327,24 @@ light travels from the sun to earth
 light carries energy
 light from stars can travel for years
 light allows astronomers to study distant objects
+light speed is extremely fast
+light speed limits how quickly information can travel
+light speed allows sunlight to reach earth in minutes
+light speed is constant in a vacuum
+the speed of light is extremely fast
+the speed of light is a fundamental constant
+the speed of light determines how we observe distant objects
+
+a light year measures distance
+a light year is the distance light travels in one year
+a light year is used for enormous astronomical distances
+a light year is not a measurement of time
+astronomical distances are enormous
+astronomical distances can be measured in light years
+astronomical distances within the solar system can use astronomical units
+an astronomical unit represents distance
+an astronomical unit is based on earths distance from the sun
+an astronomical unit is useful inside the solar system
 
 space is enormous
 space is mostly empty
@@ -200,6 +353,11 @@ space contains stars and galaxies
 space contains planets and moons
 space stretches far beyond our solar system
 space exploration helps scientists learn about the universe
+space exploration advances science
+space exploration develops technology
+space exploration studies other worlds
+space exploration helps scientists understand earth
+space exploration searches for answers about the universe
 
 astronauts explore space
 astronauts travel aboard spacecraft
@@ -208,6 +366,28 @@ astronauts experience microgravity
 astronauts conduct scientific experiments
 astronauts wear spacesuits outside spacecraft
 astronauts have walked on the moon
+astronauts live aboard spacecraft
+astronauts conduct experiments
+astronauts exercise in microgravity
+astronauts communicate with mission control
+astronauts train extensively before spaceflight
+astronauts wear protective spacesuits
+
+microgravity affects astronauts
+microgravity changes how objects move
+microgravity allows objects to float
+microgravity can affect muscles and bones
+microgravity enables unusual scientific experiments
+
+spacesuits protect astronauts
+spacesuits provide oxygen
+spacesuits regulate temperature
+spacesuits allow astronauts to work outside spacecraft
+
+mission control supports astronauts
+mission control monitors spacecraft
+mission control communicates with crews
+mission control helps manage space missions
 
 rockets launch spacecraft
 rockets launch satellites
@@ -215,6 +395,16 @@ rockets produce enormous thrust
 rockets carry fuel
 rockets escape earth using powerful engines
 rockets allow humans to reach space
+rockets generate thrust
+rockets burn propellant
+rockets accelerate spacecraft
+rockets overcome earths gravity
+rockets can use multiple stages
+
+rocket engines produce thrust
+rocket engines burn fuel
+rocket engines operate by expelling material
+rocket engines can operate in space
 
 spacecraft explore planets
 spacecraft explore moons
@@ -223,6 +413,33 @@ spacecraft carry scientific instruments
 spacecraft send information back to earth
 spacecraft can travel for many years
 spacecraft have visited every planet in the solar system
+a spacecraft carries instruments
+a spacecraft can carry astronauts
+a spacecraft can orbit earth
+a spacecraft can travel to other planets
+a spacecraft can operate autonomously
+a spacecraft communicates using radio signals
+
+space probes explore distant worlds
+space probes travel without astronauts
+space probes collect scientific measurements
+space probes photograph planets
+space probes investigate moons
+space probes transmit data back to earth
+space probes can operate for decades
+
+voyager spacecraft explored the outer planets
+voyager spacecraft traveled beyond the major planets
+voyager spacecraft sent images back to earth
+voyager spacecraft studied jupiter
+voyager spacecraft studied saturn
+voyager spacecraft continue traveling through space
+
+new horizons explored pluto
+new horizons photographed pluto
+new horizons studied the kuiper belt
+new horizons traveled billions of miles
+new horizons carries scientific instruments
 
 satellites orbit earth
 satellites orbit planets
@@ -231,6 +448,27 @@ satellites provide communications
 satellites observe weather
 satellites help people navigate
 satellites can study distant parts of space
+a satellite orbits another object
+a satellite can be natural
+a satellite can be artificial
+a satellite can observe earth
+a satellite can provide communications
+a satellite can provide navigation
+
+gps satellites provide navigation
+gps satellites orbit earth
+gps satellites transmit precise timing signals
+gps satellites help determine location
+
+weather satellites observe earth
+weather satellites track storms
+weather satellites monitor clouds
+weather satellites collect atmospheric data
+
+communication satellites transmit signals
+communication satellites connect distant locations
+communication satellites orbit earth
+communication satellites support television and internet services
 
 telescopes observe stars
 telescopes observe planets
@@ -239,6 +477,47 @@ telescopes collect light
 telescopes help astronomers study space
 telescopes can see extremely distant objects
 telescopes reveal details invisible to human eyes
+telescopes magnify distant objects
+telescopes reveal faint objects
+telescopes can operate on earth
+telescopes can operate in space
+telescopes use mirrors
+telescopes help scientists investigate the universe
+
+space telescopes observe the universe
+space telescopes operate above earths atmosphere
+space telescopes capture distant light
+space telescopes study galaxies
+space telescopes study stars
+space telescopes study planets
+space telescopes can observe wavelengths blocked by earths atmosphere
+
+radio telescopes detect radio waves
+radio telescopes observe space
+radio telescopes can study pulsars
+radio telescopes can study galaxies
+radio telescopes can operate in large arrays
+
+infrared telescopes detect infrared light
+infrared telescopes study cool objects
+infrared telescopes can see through clouds of dust
+infrared telescopes observe distant galaxies
+infrared telescopes study forming stars
+
+hubble observes galaxies
+hubble observes stars
+hubble observes planets
+hubble operates in space
+hubble has captured famous astronomical images
+hubble has helped scientists study the expanding universe
+
+webb observes distant galaxies
+webb observes forming stars
+webb observes exoplanets
+webb observes infrared light
+webb operates far from earth
+webb studies the early universe
+webb studies planetary atmospheres
 
 astronomers study stars
 astronomers study planets
@@ -247,6 +526,80 @@ astronomers study black holes
 astronomers use telescopes
 astronomers analyze light
 astronomers try to understand the universe
+astronomers discover exoplanets
+astronomers measure starlight
+astronomers analyze planetary atmospheres
+astronomers search for habitable worlds
+astronomers study distant solar systems
+astronomers measure the motion of stars
+
+exoplanets orbit other stars
+exoplanets exist outside our solar system
+exoplanets can be rocky
+exoplanets can be gaseous
+exoplanets can be extremely hot
+exoplanets can be extremely cold
+exoplanets come in many sizes
+exoplanets can have atmospheres
+exoplanets are discovered using telescopes
+
+the transit method detects planets
+the transit method measures changes in starlight
+the transit method can reveal planet size
+the transit method helps astronomers discover exoplanets
+
+a habitable zone surrounds a star
+a habitable zone may allow liquid water
+a habitable zone depends on stellar temperature
+a habitable zone can contain planets
+a habitable zone is sometimes called the goldilocks zone
+
+europa orbits jupiter
+europa is covered with ice
+europa may contain an underground ocean
+europa is one of jupiters moons
+europa has a cracked icy surface
+europa interests scientists searching for habitable environments
+
+ganymede orbits jupiter
+ganymede is a moon
+ganymede is the largest moon in the solar system
+ganymede is larger than mercury
+ganymede has a magnetic field
+ganymede contains large amounts of ice
+
+io orbits jupiter
+io is a moon
+io has active volcanoes
+io is extremely volcanic
+io has a colorful surface
+io experiences strong tidal forces
+
+titan orbits saturn
+titan is a moon
+titan has a thick atmosphere
+titan contains lakes of liquid hydrocarbons
+titan has clouds
+titan is larger than earths moon
+
+enceladus orbits saturn
+enceladus is a moon
+enceladus is covered with ice
+enceladus releases plumes of water vapor
+enceladus may contain an underground ocean
+enceladus interests scientists searching for habitable environments
+
+phobos orbits mars
+phobos is a moon
+phobos is small
+phobos has an irregular shape
+phobos moves around mars quickly
+
+deimos orbits mars
+deimos is a moon
+deimos is small
+deimos has an irregular shape
+deimos is farther from mars than phobos
 
 galaxies contain stars
 galaxies contain planets
@@ -255,6 +608,32 @@ galaxies come in different shapes
 galaxies can contain billions of stars
 galaxies can collide with other galaxies
 galaxies fill the observable universe
+a galaxy contains stars
+a galaxy contains gas
+a galaxy contains dust
+a galaxy contains dark matter
+a galaxy may contain a central black hole
+a galaxy can contain billions of stars
+
+spiral galaxies have spiral arms
+spiral galaxies contain stars
+spiral galaxies contain gas and dust
+spiral galaxies can contain active star formation
+
+elliptical galaxies have rounded shapes
+elliptical galaxies contain many stars
+elliptical galaxies usually contain less gas than spiral galaxies
+
+galaxy clusters contain many galaxies
+galaxy clusters are held together by gravity
+galaxy clusters can contain hundreds of galaxies
+galaxy clusters form large structures in the universe
+
+andromeda is a galaxy
+andromeda is a spiral galaxy
+andromeda contains billions of stars
+andromeda is relatively close to the milky way
+andromeda and the milky way are moving toward each other
 
 black holes have enormous gravity
 black holes can form from massive stars
@@ -262,6 +641,60 @@ black holes can pull in nearby matter
 black holes can exist at the centers of galaxies
 black holes do not allow light to escape
 black holes are some of the strangest objects in space
+black holes bend light
+black holes have powerful gravity
+black holes consume nearby matter
+black holes can produce energetic environments
+black holes can form after massive stars collapse
+black holes exist throughout the universe
+a black hole has extreme gravity
+a black hole can bend light
+a black hole can attract surrounding matter
+a black hole has an event horizon
+a black hole can grow by consuming matter
+
+the event horizon surrounds a black hole
+the event horizon marks a boundary
+the event horizon prevents light from escaping
+the event horizon is shaped by gravity
+
+neutron stars are extremely dense
+neutron stars form from massive stars
+neutron stars contain compressed matter
+neutron stars can rotate rapidly
+neutron stars can have powerful magnetic fields
+
+pulsars are neutron stars
+pulsars rotate rapidly
+pulsars produce beams of radiation
+pulsars can appear to pulse
+pulsars have extremely regular signals
+
+supernovas are powerful explosions
+supernovas occur when some stars die
+supernovas spread elements through space
+supernovas can briefly become extremely bright
+supernovas help create heavy elements
+a supernova releases enormous energy
+a supernova can create a neutron star
+a supernova can help create a black hole
+a supernova distributes elements into space
+
+nebulae contain gas
+nebulae contain dust
+nebulae can form stars
+nebulae can result from dying stars
+nebulae can appear colorful
+nebulae exist throughout the galaxy
+a nebula contains gas and dust
+a nebula can contain forming stars
+a nebula can span many light years
+a nebula can glow because of nearby stars
+
+stellar nurseries form stars
+stellar nurseries contain gas
+stellar nurseries contain dust
+stellar nurseries can exist inside nebulae
 
 the universe contains galaxies
 the universe contains stars
@@ -271,6 +704,63 @@ the universe contains vast empty regions
 the universe is expanding
 the universe is billions of years old
 the universe is larger than we can directly observe
+the universe contains billions of galaxies
+the universe contains enormous structures
+the universe contains matter
+the universe contains energy
+the universe contains dark matter
+the universe contains dark energy
+the universe began in a hot dense state
+
+the big bang describes the early universe
+the big bang occurred billions of years ago
+the big bang began the expansion of the universe
+the big bang model is supported by astronomical observations
+
+dark matter affects gravity
+dark matter does not emit ordinary light
+dark matter helps hold galaxies together
+dark matter makes up part of the universe
+
+dark energy affects cosmic expansion
+dark energy is associated with accelerating expansion
+dark energy remains poorly understood
+dark energy makes up a large part of the universe
+
+nuclear fusion produces energy
+nuclear fusion occurs inside stars
+nuclear fusion combines atomic nuclei
+nuclear fusion powers the sun
+nuclear fusion creates heavier elements
+nuclear fusion releases enormous amounts of energy
+
+solar energy comes from the sun
+solar energy reaches earth as light
+solar energy warms our planet
+solar energy can generate electricity
+solar energy originates from nuclear fusion
+
+solar wind flows from the sun
+solar wind contains charged particles
+solar wind travels through the solar system
+solar wind interacts with planetary magnetic fields
+solar wind can affect earth
+the solar wind flows through space
+the solar wind reaches earth
+the solar wind creates interactions with magnetic fields
+
+auroras appear near the poles
+auroras glow in the night sky
+auroras are caused by charged particles
+auroras interact with earths atmosphere
+auroras can appear green
+auroras can appear red
+
+the atmosphere protects earth
+the atmosphere contains gases
+the atmosphere affects temperature
+the atmosphere produces weather
+the atmosphere surrounds the planet
 
 the red planet is mars
 the red planet has two moons
@@ -304,11 +794,11 @@ apollo missions explored the moon
 apollo missions returned lunar rocks to earth
 apollo eleven landed humans on the moon
 
-mars rovers explore the surface
-mars rovers take photographs
-mars rovers analyze rocks
-mars rovers search for evidence of ancient water
-mars rovers send scientific data to earth
+lunar missions explore the moon
+lunar missions collect scientific data
+lunar missions study lunar rocks
+lunar missions photograph the surface
+lunar missions prepare for future exploration
 
 the international space station orbits earth
 the international space station contains laboratories
@@ -316,11 +806,31 @@ the international space station hosts astronauts
 the international space station supports scientific research
 the international space station travels around earth many times each day
 
+space stations orbit earth
+space stations contain laboratories
+space stations support astronauts
+space stations enable long duration research
+space stations provide environments for microgravity experiments
+
+robotic missions explore dangerous environments
+robotic missions travel far from earth
+robotic missions collect scientific data
+robotic missions can operate without human crews
+
+human missions carry astronauts
+human missions require life support
+human missions require extensive training
+human missions allow people to explore space directly
+
 future astronauts may travel to mars
 future spacecraft may explore distant worlds
 future telescopes may discover new planets
 future missions may search for signs of life
 future technology may allow humans to travel farther into space
+future missions may explore mars
+future missions may return samples
+future missions may explore icy moons
+future missions may study distant asteroids
 
 scientists search for life
 scientists search for distant planets
@@ -329,3 +839,37 @@ scientists study the history of the solar system
 scientists use data from spacecraft
 scientists use powerful computers
 scientists continue to discover new things about the universe
+scientists analyze data
+scientists analyze images
+scientists analyze rocks
+scientists analyze light
+scientists analyze planetary atmospheres
+scientists compare observations with theories
+scientists discover planets
+scientists discover moons
+scientists discover asteroids
+scientists discover distant galaxies
+scientists discover new information using observations
+
+science uses evidence
+science uses experiments
+science uses observations
+science develops models
+science tests predictions
+science changes as new evidence is discovered
+
+astronomy studies space
+astronomy studies stars
+astronomy studies planets
+astronomy studies galaxies
+astronomy studies the universe
+astronomy uses physics
+astronomy uses mathematics
+astronomy relies on observations
+
+physics explains motion
+physics explains gravity
+physics explains energy
+physics explains light
+physics helps scientists understand stars
+physics helps scientists understand the universe

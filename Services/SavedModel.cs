@@ -19,13 +19,23 @@ public sealed class SavedModel : IDisposable
         _model.load(path);
     }
 
-    public string Predict(string word)
+    /// <summary>The model scores every word; softmax turns those scores into percentages.</summary>
+    public IReadOnlyList<(string Word, float Chance)> PredictTop(string word, int count)
     {
         using var input = tensor([_vocabulary.IdOf(word)], dtype: ScalarType.Int64);
         using var output = _model.forward(input);
-        using var predicted = output.argmax(1);
+        using var chances = torch.nn.functional.softmax(output, dim: 1);
 
-        return _vocabulary.WordAt(predicted.ToInt64());
+        (Tensor values, Tensor ids) = chances.topk(count, dim: 1);
+
+        using (values)
+        using (ids)
+        {
+            float[] chance = values.flatten().data<float>().ToArray();
+            long[] wordIds = ids.flatten().data<long>().ToArray();
+
+            return [.. chance.Select((value, i) => (_vocabulary.WordAt(wordIds[i]), value))];
+        }
     }
 
     public void Dispose() => _model.Dispose();

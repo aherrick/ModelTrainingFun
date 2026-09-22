@@ -32,5 +32,7 @@ public sealed class Vocabulary
 
     public long IdOf(string word) => _wordToId[word];
 
+    public bool Contains(string word) => _wordToId.ContainsKey(word);
+
     public string WordAt(long id) => _words[id];
 }
