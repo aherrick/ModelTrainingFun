@@ -399,3 +399,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# LanternsDemo local model artifacts (large, generated)
+LanternsDemo/models/
+ModelFromScratch/state/
+
+# Python virtual environments / caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]

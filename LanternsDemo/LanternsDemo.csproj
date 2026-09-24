@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSnakes.Runtime" Version="1.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntimeGenAI" Version="0.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="ProjectDir" Value="$(MSBuildProjectDirectory)" />
+    <AdditionalFiles Include="trainer.py" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="requirements.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Remove=".venv/**;models/**" />
+    <None Remove=".venv/**;models/**" />
+  </ItemGroup>
+
+</Project>

@@ -60,29 +60,19 @@ public static class ConsoleReport
     {
         const long frontierParameters = 1_800_000_000_000;
 
-        long table = vocabularyCount * embeddingSize;
-
-        Console.WriteLine($"{vocabularyCount:N0} different words came out of training.txt.");
-        Console.WriteLine($"Each word gets {embeddingSize} numbers the model can tune.");
+        Line("words learned from training.txt", $"{vocabularyCount:N0}");
+        Line("numbers per word (embedding)", $"{embeddingSize}");
+        Line("parameters (everything learned)", $"{parameterCount:N0}");
+        Line("space-model.dat", $"{fileBytes / 1024.0:N0} KB");
         Console.WriteLine();
-        Line($"word table     {vocabularyCount,5:N0} x {embeddingSize,-5}", $"{table:N0}");
-        Line($"scoring layer  {embeddingSize,5} x {vocabularyCount,-5:N0}", $"{table:N0}");
-        Line("one nudge per word", $"{vocabularyCount:N0}");
-        Console.WriteLine($"  {new string('-', 48)}");
-        Line("PARAMETERS (tunable numbers)", $"{parameterCount:N0}");
-        Line("saved to disk", $"{fileBytes / 1024.0:N0} KB");
-        Console.WriteLine();
-        Console.WriteLine("A GPT-4 class model (public estimates):");
-        Line("vocabulary", $"{100_000:N0} tokens");
+        Console.WriteLine("GPT-4 class model (public estimates):");
         Line("parameters", $"{frontierParameters:N0}");
-        Line("saved to disk", "~3,600 GB");
+        Line("on disk", "~3,600 GB");
         Console.WriteLine();
-        Console.WriteLine(
-            $"That is about {frontierParameters / parameterCount:N0}x more parameters - " +
-            "same idea, wildly different scale.");
+        Console.WriteLine($"Same mechanics, {frontierParameters / parameterCount:N0}x the parameters.");
 
         static void Line(string label, string value) =>
-            Console.WriteLine($"  {label,-28} = {value,17}");
+            Console.WriteLine($"  {label,-32} {value,17}");
     }
 
     /// <summary>Prints one word at a time so the audience sees it building the sentence.</summary>
